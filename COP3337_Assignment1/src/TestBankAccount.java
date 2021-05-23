@@ -46,7 +46,7 @@ public class TestBankAccount {
             		
             		Product searchedProduct = db.getProduct();
             		String s = "Name\tPrice\tQuantity\n";
-            		s = s + searchedProduct.getProdName() + "\t" + searchedProduct.getunitPrice() + "\t"  + searchedProduct.getQuantity();
+            		s = s + searchedProduct.getProdName() + "\t$" + searchedProduct.getunitPrice() + "\t"  + searchedProduct.getQuantity();
             		display(s, "Product", 0);
             		
             	}
